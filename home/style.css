@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+body{
+    background-color: #F8F3EC;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header{
+    background-color: #DA432F;
+    height: 3em;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+#navbar{
+    background-color: #A38871;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    height: 5em;
+}
+
+.iten{
+    font-size: 16px;
+    cursor: pointer;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+}
+
+.iten:hover{
+    background-color: #9c7a5c;
+}
+
+.filtrar{
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+}
+
+div .opc-filtro{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(94, 97, 97); */
+    width: 90%;
+    height: 2em;
+    align-items: center;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    /* background-color: #DA432F; */
+    background-color: #F8F3EC;
+    height: 2em;
+    cursor: pointer;
+}
+
+.filter h2{
+    width: 10em;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    width: 5em;
+}
+
