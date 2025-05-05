@@ -49,25 +49,27 @@ header{
     display: flex;
     align-items: center;
     color: #FEFEFE;
+    font-size: 15px;
 }
 
 #navbar{
     background-color: #A38871;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     display: flex;
     gap: 40px;
-    height: 5em;
+    height: 5.4em;
 }
 
-.box-1, .box-2{
+.box-1{
     display: flex;
     gap: 20px;
+    cursor: pointer;
 }
 
 .iten{
     font-size: 16px;
-    cursor: pointer;
+    /* cursor: pointer; */
     height: 100%;
     align-items: center;
     display: flex;
@@ -75,7 +77,7 @@ header{
 }
 
 .iten:hover{
-    background-color: #9c7a5c;
+    text-decoration: underline;
 }
 
 .filtrar{
