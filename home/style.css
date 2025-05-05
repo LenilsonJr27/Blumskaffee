@@ -35,7 +35,7 @@ table {
 
 
 body{
-    background-color: #F8F3EC;
+    background-color: #FEFEFE;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -43,12 +43,12 @@ body{
 
 header{
     background-color: #DA432F;
-    height: 3em;
+    height: 2.2em;
     width: 100vw;
     justify-content: center;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #FEFEFE;
 }
 
 #navbar{
@@ -58,6 +58,11 @@ header{
     display: flex;
     gap: 40px;
     height: 5em;
+}
+
+.box-1, .box-2{
+    display: flex;
+    gap: 20px;
 }
 
 .iten{
@@ -95,7 +100,7 @@ div .opc-filtro{
     display: flex;
     align-items: center;
     /* background-color: #DA432F; */
-    background-color: #F8F3EC;
+    background-color: #FEFEFE;
     height: 2em;
     cursor: pointer;
 }
